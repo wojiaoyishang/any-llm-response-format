@@ -1,7 +1,7 @@
 import re
 import json
 from pydantic import BaseModel
-from json_output.base import (
+from response_format.base import (
     _try_parse_json_object,
     _parse_model_schema
 )

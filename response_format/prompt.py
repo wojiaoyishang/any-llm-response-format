@@ -1,4 +1,4 @@
-from json_output.base import (
+from response_format.base import (
     _ensure_class,
     _parse_model_to_json_output_prompt,
     _parse_model_to_response_format_prompt
@@ -6,7 +6,7 @@ from json_output.base import (
 
 
 @_ensure_class
-def json_output_prompt_getter(cls):
+def format_prompt_getter(cls):
     """
     为装饰的类添加结构化输出提示的方法。
 
